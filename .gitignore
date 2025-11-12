@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+target/
+dist/
+
+# IDL
+target/idl/
+target/types/
+
+# Build artifacts
+*.so
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Testing
+coverage/
+
+# Next.js
+.next/
+out/
+
+# TypeScript
+*.tsbuildinfo
+

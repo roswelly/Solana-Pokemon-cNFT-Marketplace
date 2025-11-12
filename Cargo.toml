@@ -1,0 +1,20 @@
+[workspace]
+members = [
+    "programs/*"
+]
+resolvers = ["2"]
+exclude = [
+    "target",
+    "node_modules"
+]
+
+[profile.release]
+overflow-checks = true
+lto = "fat"
+codegen-units = 1
+
+[profile.release.build-override]
+opt-level = 3
+incremental = true
+codegen-units = 1
+

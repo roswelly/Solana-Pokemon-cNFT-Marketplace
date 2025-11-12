@@ -1,0 +1,40 @@
+{
+  "name": "pokemon-cnft-marketplace",
+  "version": "1.0.0",
+  "description": "Pokémon-style cNFT Marketplace on Solana",
+  "main": "index.js",
+  "scripts": {
+    "build": "anchor build",
+    "test": "anchor test",
+    "deploy": "anchor deploy",
+    "deploy:devnet": "anchor deploy --provider.cluster devnet",
+    "deploy:mainnet": "anchor deploy --provider.cluster mainnet-beta",
+    "backend:dev": "cd backend && npm run dev",
+    "frontend:dev": "cd frontend && npm run dev",
+    "frontend:build": "cd frontend && npm run build"
+  },
+  "keywords": [
+    "solana",
+    "anchor",
+    "nft",
+    "cnft",
+    "marketplace",
+    "pokemon"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.30.0",
+    "@solana/web3.js": "^1.87.6",
+    "@metaplex-foundation/mpl-bubblegum": "^3.0.0",
+    "@metaplex-foundation/mpl-token-metadata": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0",
+    "ts-mocha": "^10.0.0",
+    "typescript": "^5.3.3"
+  }
+}
+

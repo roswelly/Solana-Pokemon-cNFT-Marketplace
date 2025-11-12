@@ -1,0 +1,23 @@
+[package]
+name = "pokemon_marketplace"
+version = "0.1.0"
+description = "Pokémon-style cNFT Marketplace on Solana"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "pokemon_marketplace"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+
+[dependencies]
+anchor-lang = "0.30.0"
+anchor-spl = "0.30.0"
+mpl-bubblegum = "3.0.0"
+mpl-token-metadata = "4.0.0"
+
