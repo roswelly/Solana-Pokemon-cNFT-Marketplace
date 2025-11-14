@@ -2,7 +2,7 @@
 
 A complete Pokémon-style compressed NFT marketplace built on Solana using Anchor, TypeScript, and Next.js.
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 Pokmon/
@@ -14,7 +14,7 @@ Pokmon/
 └── tests/                        # Anchor tests
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -60,7 +60,7 @@ cd frontend
 npm run dev
 ```
 
-## 📚 Features
+## Features
 
 ### Smart Contract (Anchor)
 
@@ -86,13 +86,13 @@ npm run dev
 - Marketplace browsing
 - Tensor SDK integration (placeholder)
 
-## 🧪 Testing
+## Testing
 
 ```bash
 anchor test
 ```
 
-## 📝 Environment Variables
+## Environment Variables
 
 ### Backend (.env)
 ```
@@ -107,7 +107,7 @@ SOLANA_RPC_URL=https://api.devnet.solana.com
 NEXT_PUBLIC_SOLANA_RPC_URL=https://api.devnet.solana.com
 ```
 
-## 🔧 Development
+## Development
 
 ### Anchor Program
 - Located in `programs/pokemon_marketplace/`
@@ -127,7 +127,7 @@ NEXT_PUBLIC_SOLANA_RPC_URL=https://api.devnet.solana.com
 - Solana Wallet Adapter
 - Framer Motion for animations
 
-## 📄 License
+## License
 
 MIT
 
